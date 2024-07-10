@@ -22,9 +22,6 @@ def button_disable():
     b2["state"] = "disable"
     b3["state"] = "disable"
  
-# If player selected rock
- 
- 
 def isrock():
     c_v = computer_value[str(random.randint(0, 2))]
     if c_v == "Rock":
